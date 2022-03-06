@@ -1,11 +1,11 @@
-import logo from "./logo.svg";
-import {MainContent} from "./components/Layout";
+import {AppRoutes} from "./routes";
+import {BrowserRouter as Router} from "react-router-dom";
 
 function App() {
   return (
-    <MainContent>
-      <img src={logo} className="App-logo" alt="logo" />
-    </MainContent>
+    <Router>
+      <AppRoutes />
+    </Router>
   );
 }
 
