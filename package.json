@@ -25,7 +25,7 @@
   },
   "scripts": {
     "start": "tsc && vite",
-    "build": "tsc && build",
+    "build": "tsc && vite build",
     "preview": "vite preview"
   },
   "browserslist": {
