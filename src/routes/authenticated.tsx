@@ -1,10 +1,10 @@
 import {Outlet, Navigate} from "react-router-dom";
-import {HomeRoot} from "../pages/home";
-import {ProductRoot} from "../pages/product";
-import {InspectRoot} from "../pages/inspect";
+import {HomeRoot} from "@/pages/home";
+import {ProductRoot} from "@/pages/product";
+import {InspectRoot} from "@/pages/inspect";
 
-import {SettingRoot} from "../pages/setting";
-import {MainContent} from "../components/Layout";
+import {SettingRoot} from "@/pages/setting";
+import {MainContent} from "@/components/Layout";
 
 const App = () => {
   return (
