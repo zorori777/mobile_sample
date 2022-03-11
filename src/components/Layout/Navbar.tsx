@@ -36,7 +36,7 @@ export const Navbar = () => {
   const {pathname} = useLocation();
 
   const findTabKey = useMemo(() => {
-    return tabs.find((tab) => pathname.startsWith(tab.key))!.key;
+    return tabs.find((tab) => pathname.startsWith(tab.key))?.key || "/home";
   }, [pathname]);
 
   return (
